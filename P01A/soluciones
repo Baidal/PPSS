@@ -1,0 +1,33 @@
+2-D: Un posible test C5 con datos 7,7,7 (a,b,c), comprobaría el mismo camino que el test C1, por lo que sería inecesario. De otra forma, los tests C2 y C3 prueban diferentes caminos del código: uno comprueba que los datos de entrada correspondan con un triángulo, y el otro que estos datos no sobrepasen un rango permitido, por lo que ninguno de los dos es inecesario.
+
+3-A
+----------------------------------------------------
+|      |	  |      |      |                      |
+|  Id  |  ED  |  FN  |  REP |  Resultado Esperado  |   
+|      |      |      |      |                      |
+----------------------------------------------------
+|      											   |
+|  	1     23     T       T            250          |
+|                                                  |
+----------------------------------------------------
+|												   |
+|   2     65     F       T            250          |
+|												   |
+----------------------------------------------------
+|												   |
+|   3     23     F       T            2000         |
+|												   |
+----------------------------------------------------
+|												   |
+|   4     55     T       F            400		   |
+|												   |
+----------------------------------------------------	
+|												   |
+|   5     23     F       F             ? 		   |
+|												   |
+----------------------------------------------------
+|												   |
+|   6     55     F       F            400		   |
+|												   |
+----------------------------------------------------
+*El caso de prueba 6 no está implementado en el código porque no viene en la especificación.
